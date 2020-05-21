@@ -39,6 +39,7 @@ function App() {
     useEffect( () => {
         if (!location.city) return;
         setLoading(true);
+        setWeather(null);
         requestAPI();
     }, [location]);
 
@@ -65,6 +66,9 @@ function App() {
             sunrise: new Date(result.sys.sunrise),            
             sunset: new Date(result.sys.sunset),            
         });
+        // Reset selects
+        var elements = document.querySelectorAll('select');
+        M.FormSelect.init(elements);
     }
 
     return (
