@@ -1,0 +1,15 @@
+.location-form {
+    background-color: white;
+    padding: 20px 15px !important;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.location-submit{
+    background-color: #039be5 !important;
+}
+.location-submit:hover{
+    background-color: #0277bd !important;
+    transition: ease-in-out 0.3s;
+}

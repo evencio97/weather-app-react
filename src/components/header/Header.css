@@ -1,0 +1,36 @@
+header {
+  text-align: center;
+  background-color: transparent;
+  padding: 2em 0em 3em 0em;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header-logo {
+  height: 50px;
+  width: auto;
+  pointer-events: none;
+}
+
+.header-link {
+  display: flex;
+  margin-top: 2px;
+  text-decoration: none;
+  width: fit-content;
+  margin: 0 auto 0 auto;
+}
+.header-link:hover {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+.header-link h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: white;
+  font-size: 3rem !important;
+  margin: 4px 0 0 10px;
+}

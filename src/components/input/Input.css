@@ -1,0 +1,51 @@
+.input-field label {
+    /* color: #3f3f3f; */
+    color:#3f3f3f;
+}
+
+.input-field input[type=text]:focus + label {
+    /* color: #3f3f3f; */
+    color:#3f3f3f;
+} 
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #3f3f3f;
+    box-shadow: 0 1px 0 0 #000;
+}
+input[type=text]:not(.browser-default) {
+    border-bottom: 1px solid #3f3f3f;
+    color: #3f3f3f;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid #3f3f3f;
+    -webkit-box-shadow: 0 1px 0 0 #3f3f3f;
+    box-shadow: 0 1px 0 0 #3f3f3f;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]) + label {
+    /* color: #3f3f3f; */
+    color:#3f3f3f;
+}
+
+.invalid {
+    color: red !important;
+    border-color: red !important;
+}
+.invalid::placeholder {
+    color: red !important;
+}
+.valid {
+    color: #3f3f3f !important;
+    border-color: #3f3f3f !important;
+    box-shadow: 0 1px 0 0 #3f3f3f !important;
+}
+.valid::placeholder {
+    color: #3f3f3f !important;
+}
+.input-error-msg{
+    display: inline;
+    padding: 0 0 15px 10px !important;
+    color: red;
+    display: none;
+}
+.dropdown-content li>a, .dropdown-content li>span {
+    color: #3f3f3f !important;
+}

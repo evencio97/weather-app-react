@@ -1,0 +1,32 @@
+.weather-section {
+    background-color: white;
+    padding: 20px 15px !important;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.weather-section h2{
+    margin-bottom: 30px !important;
+}
+
+.important {
+    font-weight: 600;
+}
+.temperature {
+    font-size: 1rem!important
+}
+p span {
+    font-size: 0.8rem!important;
+    vertical-align: top;
+}
+
+.reload-weather{
+    background-color: #039be5 !important;
+    margin: 0 !important;
+    padding: 0 10px !important;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    border-radius: 20px;
+    transition: ease-in-out 0.3s;
+}
